@@ -6,23 +6,47 @@
   <title>Dicee</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
   <div class="container">
-    <p>Refresh to Play</p>
+    <button class="btn" id="roll">Roll Dice<i class="fas fa-dice dice-icon"></i></button>
     <h1></h1>
 
     <div class="dice">
-      <p>Player 1</p>
+
+      <div class="p1-container">
+        <p class="name1">Player 1</p>
+        <i class="fas fa-edit" id="change1"></i>
+      </div>
+
+      <div class="p1-inputs hidden">
+        <input class="p1-name">
+        <i class="fas fa-check-circle" id="set1"></i>
+      </div>
       <img class="img1" src="images/dice6.png">
+
     </div>
 
+
+
     <div class="dice">
-      <p>Player 2</p>
-      <img class="img2" src="images/dice6.png">
+      
+      <div class="p2-container">
+        <p class="name2">Player 2</p>
+        <i class="fas fa-edit" id="change2"></i>
+      </div>
+
+      <div class="p2-inputs hidden">
+        <input class="p2-name">
+        <i class="fas fa-check-circle" id="set2"></i>
+      </div>
+      <img class="img1" src="images/dice6.png">
+
     </div>
 
   </div>
@@ -31,7 +55,7 @@
     - By Hardik Shah
   </footer>
 
+  <script src="index.js"></script>
 </body>
-<script src="index.js"></script>
 
 </html>
