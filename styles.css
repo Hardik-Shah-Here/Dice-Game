@@ -27,10 +27,10 @@ body{
 }
 
 h1{
-    margin: 30px;
+    margin: 30px 19px;
     font-family: 'Lobster', cursive;
     text-shadow: 5px 0 #232931;
-    font-size: 8rem;
+    font-size: 7rem;
     color: #4ECCA3;
 }
 
@@ -38,10 +38,11 @@ p{
     font-size: 2rem;
     color: #4ECCA3;
     font-family: 'Indie Flower', cursive;
+    margin: 20px;
 }
 
 input{
-  font-size: 1rem;
+    font-size: 1rem;
     font-family: 'Lobster', cursive;
     color: #393E46;
     padding: 4px 9px;
@@ -70,6 +71,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-bottom: 12px;
 }
 
 .p2-container{
@@ -90,5 +92,33 @@ footer{
 }
 
 .hidden{
-    display: none;
+    visibility: hidden;
+}
+
+.scorecard{
+    width: 60%;
+    text-align: center;
+    margin: 54px auto 15px auto;
+}
+
+.margin-2{
+    margin: 1px;
+}
+
+.reset{
+    margin: 15px 0;
+}
+
+.score-title{
+    margin: 15px;
+}
+
+.reset{
+    margin: 15px 0;
+    border: 1px solid #393E46;
+    padding: 7px 20px;
+    background: #4ECCA3;
+    color: #393E46;
+    font-size: 1.1rem;
+    border-radius: 13px;
 }
